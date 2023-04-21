@@ -5,3 +5,4 @@
 # Then from "sklearn.neighbors" I import "KNeighborsClassifier" and set parameters in my "classifier"
 # I set "n_neighbors" on (5), so my classifier is gonna take five closest points
 # And default "metric" "minkowski" which results are the standard "Euclidean" distance, in this case I need to set also "precision" at (2)
+# And save all as "classifier" """classifier = KNeighborsClassifier(n_neighbors = 5, metric = 'minkowski', p = 2)"""
