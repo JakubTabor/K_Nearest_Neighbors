@@ -8,3 +8,4 @@
 # And save all as "classifier" """classifier = KNeighborsClassifier(n_neighbors = 5, metric = 'minkowski', p = 2)"""
 # Then I train my data """classifier.fit(X_train, y_train)"""
 # I also check some predictions """classifier.predict(sc.transform([[30,87000]]))"""
+# And prepare "y_pred" on my "X_test" """y_pred = classifier.predict(X_test)"""
