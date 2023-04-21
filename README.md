@@ -10,3 +10,4 @@
 # I also check some predictions """classifier.predict(sc.transform([[30,87000]]))"""
 # And prepare "y_pred" on my "X_test" """y_pred = classifier.predict(X_test)"""
 # Finally I get "confusion_matrix" and put into my "y_test" and "y_pred" """confusion_matrix(y_test, y_pred)"""
+# I check "accuracy_score" """accuracy_score(y_test, y_pred)""" and look at visualizations 
