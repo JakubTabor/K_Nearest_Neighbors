@@ -7,3 +7,4 @@
 # And default "metric" "minkowski" which results are the standard "Euclidean" distance, in this case I need to set also "precision" at (2)
 # And save all as "classifier" """classifier = KNeighborsClassifier(n_neighbors = 5, metric = 'minkowski', p = 2)"""
 # Then I train my data """classifier.fit(X_train, y_train)"""
+# I also check some predictions """classifier.predict(sc.transform([[30,87000]]))"""
